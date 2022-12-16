@@ -92,6 +92,7 @@ describe TeamsRequestController do
       end
     end
     # Testing when the object is being saved to the database
+    #P for pending
     context 'when resource is saved' do
       before(:each) do
         allow(JoinTeamRequest).to receive(:new).and_return(join_team_request2)
